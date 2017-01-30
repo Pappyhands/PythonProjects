@@ -13,9 +13,12 @@ data.append(Toolbox.userInt("Repeat Chorus __ amount of times: "))
 # print data
 
 omt = ["...one more time!..."]
+
+#setting chorus
 chorus = data[4] + " "
 
-print chorus
+# print chorus
+
 script = []
 for i in xrange(len(data)-2):
     script.append(data[i])
@@ -24,6 +27,7 @@ for i in xrange(len(data)-2):
     else:
         script.append(chorus * data[5])
         
+# adds it all together to make the song
 lyrics = []
 lyrics = script + omt + script
 
