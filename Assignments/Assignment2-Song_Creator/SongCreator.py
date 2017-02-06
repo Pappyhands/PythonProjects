@@ -3,12 +3,12 @@ import Toolbox
 data = []
 
 #Promting user WHILE adding to user data list.
-data.append(Toolbox.userString("Enter the first verse: "))
-data.append(Toolbox.userString("Enter the second verse: "))
-data.append(Toolbox.userString("Enter the third verse: "))
-data.append(Toolbox.userString("Enter the fourth verse: "))
-data.append(Toolbox.userString("Enter the chorus: "))
-data.append(Toolbox.userInt("Repeat Chorus __ amount of times: "))
+data.append(Toolbox.userString("Enter the first verse: ").upper())
+data.append(Toolbox.userString("Enter the second verse: ").upper())
+data.append(Toolbox.userString("Enter the third verse: ").upper())
+data.append(Toolbox.userString("Enter the fourth verse: ").uppper())
+data.append(Toolbox.userString("Enter the chorus: ").upper())
+data.append(Toolbox.userInt("Repeat Chorus __ amount of times: ").upper())
 
 # print data
 
