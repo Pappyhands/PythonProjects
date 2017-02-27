@@ -16,10 +16,5 @@ def userString(prompt):
     
     return s
     
-def userList(prompt):
-    print promt,
-    l = raw_input().split(",")
-    return l
-    
 def kmToMi(km):
     return 0.62 * km
