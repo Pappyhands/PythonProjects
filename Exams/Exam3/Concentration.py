@@ -4,7 +4,7 @@ import random
 # Generates a Randomized Set of choices
 def makeGame(choices):
     
-    r = random.randrange(0, 10)
+    r = random.randrange(0, 9)
     choices.append(choices[r])
     random.shuffle(choices)
     
