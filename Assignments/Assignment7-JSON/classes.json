@@ -1,0 +1,5 @@
+[
+{"Name" : "Mark Cohen", "Email" : ["mark@cohen.com", "mark1scool@yahoo.com"], "Courses" : ["Python", "Server-Side"]},
+{"Name" : "David Eve", "Email" : ["david@eve.com"], "Courses": ["Computer Triage"]},
+{"Name" : "Mike Dalton", "Email" : ["mike@dalton.com", "mDalton@job.com"], "Courses" : ["Java II"]}
+]
